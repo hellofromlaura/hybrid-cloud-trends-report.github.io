@@ -7,8 +7,8 @@ body {
     color: #424445;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    /* background: #fff; */
-    background-color: #0d274d;
+    background: #424445;
+    /* background-color: #0d274d; */
 }
 h1 {
     font-size: 4.6rem;
