@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="2022 Global Hybrid Cloud Trends Report">
+        <title>2022 Global Hybrid Cloud Trends Report</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+
+            <div class="hero flex">
+                <div class="hero-text">
+                    <h1 data-aos="fade-right" class="hero-title">2022 Global Hybrid Cloud Trends Report</h1>
+                    <h4 data-aos="fade-right">How cloud-based technologies are
+                        impacting enterprise infrastructure,
+                        operations, and strategies</h4>
+                </div>
+            </div>
+
+            <div class="row full blowout stickynav">
+                <div class="col full">
+                    <div class="row full">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Summary</a></li>
+                            <li><a href="#">Findings</a></li>
+                            <li><a href="#">Hybrid Cloud</a></li>
+                            <li><a href="#">Challenges</a></li>
+                            <li><a href="#">Cloud-ready</a></li>
+                            <li><a href="#">Support Operations</a></li>
+                            <li><a href="#">Cloud-native</a></li>
+                            <li><a href="#">Conclusion</a></li>
+                            <li><a href="#">Methodology</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="">
+                    <div class="intro container">
+                        <h2>About this report</h2>
+                        <p>This report examines the latest trends surrounding hybrid cloud adoption, the impact on enterprise infrastructure
+                            and operations, and the strategies being utilized to achieve better technology and business outcomes. Unless
+                            otherwise noted, the insights and data in this report stem from a global survey conducted by 451 Research on behalf
+                            of Cisco, which polled 2,500 IT decision makers in 13 countries. Respondents included cloud computing, DevOps,
+                            and enterprise networking professionals from organizations that are advanced users of cloud technologies. (See the
+                            Methodology section for further details.)</p>
+                    </div>
+                </div>
+
+                <div class="reason grey-bg">
+                    <div class="flex">
+                        <div class="image">
+                            <img class="summary-image-one" src="./images/circle-one.png" alt="">
+                            <img class="summary-image-two" src="./images/circle-two.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Executive summary</h2>
+                            <p>
+                                Hybrid cloud models that incorporate both on-prem
+                                infrastructure and cloud-based resources have become
+                                the enterprise norm, according to our global survey. The
+                                vast majority (92%) of the organizations we polled are
+                                using multiple public clouds, not only to leverage the
+                                unique strengths of those offerings but also to further
+                                increase operational agility, application performance, and
+                                business resiliency. 
+                            </p>
+                            <p>
+                                The respondents of our survey are acutely aware of
+                                the challenges these hybrid cloud models create.
+                                Many cited cooperation among NetOps, CloudOps,
+                                and DevOps teams as a key to overcoming these
+                                challenges. Modernizing infrastructure, applications,
+                                and operations and aligning them with cloud-native
+                                technologies was also seen as an essential enabler of
+                                hybrid cloud success.
+                            </p>
+                            <p>
+                                Respondents are adapting to the challenges in operating
+                                these environments in a variety of ways. Organizations
+                                are increasingly adopting hybrid cloud and using
+                                multiple clouds to improve security, performance,
+                                business agility and resilience. They see value in
+                                cooperation between networking, cloud operations, and
+                                DevOps teams. The transition to cloud-native and hybrid
+                                cloud is driving DevOps teams to adopt hybrid optimized
+                                infrastructures to strike a middle ground between
+                                existing and new applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key container">
+                    <h2>Key findings</h2>
+                    <!-- <hr class="line"> -->
+                    <img class="line" src="./images/key-line.png" alt="">
+                    <div class="flex">
+                        <h3>Hybrid cloud and multicloud are the norm</h3>
+                        <div class="stats" id="animate-stats1">
+                            <div class="stats-circle" id="circle1"></div>
+                            <p>of survey respondents have<br> adopted hybrid cloud</p>
+                        </div>
+                        <div class="stats" id="animate-stats2">
+                            <div class="stats-circle" id="circle2"></div>
+                            <p>of organizations use more than<br> two public clouds providers</p>
+                        </div>
+                        <div class="stats" id="animate-stats3">
+                            <div class="stats-circle" id="circle3"></div>
+                            <p>of organizations use a single<br> public cloud provider</p>
+                        </div>
+                    </div>
+                    <div class="block flex grey-bg blue">
+                        <img src="./images/key-block-one.png" alt="">
+                        <div>
+                            <h4>Security and complexity are the biggest challenges</h4>
+                            <ul>
+                                <li>
+                                    37% of respondents say security is a significant challenge when deploying hybrid cloud
+                                    Increased operational complexity and cost management were also cited as prominent challenges
+                                    (33%), followed by compliance and privacy (31%)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block flex grey-bg green">
+                        <img src="./images/key-block-two.png" alt="">
+                        <div>
+                            <h4>Collaboration is required for success</h4>
+                            <ul>
+                                <li> 55% of respondents have created a cross-functional team with technical and business
+                                    representation
+                                </li>
+                                <li>
+                                    50% of respondents have a centralized CloudOps and NetOps function to help ensure their
+                                    organization’s hybrid cloud strategy meets business objectives
+                                </li>
+                                <li>
+                                    Respondents said greater collaboration between networking and cloud operations teams helps
+                                    improve cloud security (45%) and operational efficiency (41%)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block flex grey-bg orange">
+                        <img src="./images/key-block-three.png" alt="">
+                        <div>
+                            <h4>Developers are embracing hybrid cloud and Infrastructure as Code (IaC)</h4>
+                            <ul>
+                                <li>53% of organizations are moving workloads between on-prem and cloud environments weekly</li>
+                                <li>
+                                    58% are adopting Infrastructure as Code (IaC) and 44% are deploying cloud-native technologies
+                                    to improve their security posture
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block flex grey-bg blue">
+                        <img src="./images/key-block-four.png" alt="">
+                        <div>
+                            <h4>Hybrid cloud is driving the adoption of emerging technologies</h4>
+                            <ul>
+                                <li>
+                                    A significant percentage of respondents are deploying AIOps (45%), infrastructure automation
+                                    (41%), and edge computing (41%)
+                                </li>
+                                <li>79% of respondents say more than half of their workloads will run on different hardware across all
+                                    environments, reinforcing the need for a comprehensive toolset for managing workloads
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block flex grey-bg green">
+                        <img src="./images/key-block-five.png" alt="">
+                        <div>
+                            <h4>Cloud-native is accelerating</h4>
+                            <ul>
+                                <li>
+                                    91% of respondents in DevOps and CloudOps roles say their organization has or will refactor
+                                    applications using cloud-native technology 
+                                </li>
+                                <li>
+                                    47% of CloudOps and DevOps respondents say a “cloud first” mandate is the tipping point for
+                                    changing development processes and tools 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hybrid-cloud grey-bg">
+                <div class="flex">
+                    <div class="text">
+                        <h2>Hybrid Cloud is the new normal</h2>
+                        <p>
+                            Most organizations around the world now
+                            use multiple clouds to support myriad
+                            applications and deliver improvements
+                            in business agility and scalability. In the
+                            Global Hybrid Cloud Trends survey, 82%
+                            of respondents currently use cloudbased Infrastructure as a Service (IaaS)
+                            to host their workloads. This hybrid
+                            approach enables organizations to achieve
+                            a more agile and scalable development
+                            environment (42%) and accelerate
+                            business agility and innovation (40%). 
+                        </p>
+                        <p>
+                            In addition, as organizations consider
+                            the best venue for their workloads today
+                            and in the future, the use of multiple
+                            clouds has become a popular approach
+                            that allows organizations to select the
+                            best environment for their workloads,
+                            considering factors such as regional
+                            compliance, security and performance.
+                            The figure below illustrates the top
+                            workloads and applications that
+                            surveyed organizations are running in
+                            hybrid IT environments.
+                        </p>
+                    </div>
+                    <img class="img" src="./images/hybrid.png" alt="">
+                </div>
+            </div>
+            <div class="hybrid-cloud">
+                <div class="container">
+                    <img class="hybrid-line" src="./images/hybrid-top-line.png" alt="">
+                    <h4>Figure 1. Organizations use hybrid IT approach across myriad workloads.</h4>
+                    <canvas id="horizontalBar1" role="img"
+                        data-values="0.45|0.44|0.39|0.36|0.33|0.30|0.29|0.29"
+                        data-labels="Performance|Security|Speed|Workload mobility|Cost|Agility|Scalability|Resiliency"
+                        data-colors = "#68B8E6|#87BB55|#E4A730|#A2A2A5|#30466F|#E4A730|#68B8E6|#87BB55" 
+                    >
+                    </canvas>
+                    <img class="hybrid-line" src="./images/hybrid-bottom-line.png" alt="">
+                    <p><span class="strong">Q.</span> Which of the following workloads or processes do you currently run in a hybrid IT environment?<br>
+                       <span class="strong">Base:</span> All respondents (N = 2,577)</p>
+                </div>
+                <div class="flex grey-bg">
+                    <div class="highlight">
+                        <h3>Only 8% of surveyed<br>
+                            organizations use<br>
+                            a single public IaaS<br>
+                            cloud provider.
+                        </h3>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Most surveyed organizations (58%) use
+                            2-3 public IaaS cloud providers for their
+                            workloads, with 31% of respondents
+                            using 4-10 public cloud providers. The
+                            organizations that use more than three
+                            cloud providers make use of alternative
+                            cloud providers outside of AWS, Azure
+                            and Google Cloud, which may include
+                            pure-play public cloud providers or cloud
+                            services offered as part of a broader
+                            portfolio (e.g., telcos).
+                        </p>
+                        <p>
+                            We consider these alternative cloud
+                            providers a fit for customers that have
+                            requirements such as security, business
+                            resilience, cost-effectiveness, etc.
+                            Organizations with 5,000+ employees are
+                            slightly more likely (8% of respondents)
+                            than smaller organizations (5%) to have
+                            more than 10 public cloud providers in use,
+                            since large organizations have more line-ofbusiness requirements that can drive usage
+                            across platforms and outside the view of IT.
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <hr>
+                    <h4>Figure 2. Why organizations are using multiple clouds.</h4>
+                    <canvas id="horizontalBar2">
+                    </canvas>
+                    <hr>
+                    <p><span class="strong">Q.</span>  What are the most significant motivations for your organization to use multiple (public and private) clouds for all
+                        services such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS) and SaaS?<br>
+                       <span class="strong">Base:</span> All respondents (N = 2,577)</p>
+                </div>
+                <div class="flex">
+                    <div class="highlight grey">
+                        <img class="green-rectangle" src="./images/green-rectangle.png" alt="">
+                        <img class="blue-square" src="./images/blue-square.png" alt="">
+                        <h3><span class="strong">Bottom line:</span> Models that<br>
+                            combine on-prem and<br>
+                            cloud-based resources have<br>
+                            become the norm. The vast<br>
+                            majority of companies are<br>
+                            utilizing multiple clouds to<br>
+                            manage security, enhance<br>
+                            application development,<br>
+                            and improve business agility.<br>
+                            They choose the best venue<br>
+                            for each workload.
+                        </h3>
+                        <img class="yellow-circle" src="./images/yellow-circle.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>
+                            Interestingly, there were only small
+                            variations across geographies in most
+                            areas of the study. That speaks to a
+                            common set of experiences of those who
+                            are operating hybrid cloud environments.
+                            They are a select group that is dealing with
+                            issues that are common around the globe.
+                        </p>
+                        <p>
+                            When it comes to SaaS, organizations are
+                            stretched across even more providers,
+                            with 23% of respondents reportedly
+                            using 20-100 different SaaS providers for
+                            their business, across categories such
+                            as email, collaboration and video calling,
+                            customer relationship management
+                            (CRM), and human capital management
+                            (HCM). Nearly half of respondents (45%)
+                            in the survey have 5-10 SaaS vendors in
+                            use. Many SaaS applications address a
+                            specific business or IT need and require
+                            organizations to spread usage across
+                            numerous vendors.
+                        </p>
+                        <img class="short-line" src="./images/short-line.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hybrid-cloud">
+                <div class="flex">
+                    <img src="./images/circle-four.png" alt="">
+                    <div class="text">
+                        <h2>Top customer challenges</h2>
+                        <p>
+                            The road to hybrid cloud and multicloud use is not without its challenges, and
+                            security stands above the rest as the greatest challenge that survey respondents
+                            face in using multiple clouds. As noted earlier, security is also the top reason that
+                            survey respondents use multiple clouds (37%), as they look to balance security
+                            with the needs of performance and scale (42%), while one-third of respondents
+                            face challenges related to operational complexity (33%) and managing costs (33%)
+                            in these environments. Survey respondents employ various strategies to overcome
+                            these roadblocks and demonstrate a strong appetite for implementing new
+                            technologies to help them do so. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container no-padding">
+                    <img class="hybrid-line" src="./images/challenges-line.png" alt="">
+                </div>
+
+                <div class="container small">
+                    <div class="text justify">
+                        <h3 class="no-margin">Top challenge #1: Security</h3>
+                        <p class="">
+                            Regardless of where an organization
+                            is at in their journey toward multicloud
+                            use, security remains a critical challenge
+                            as threats are constantly changing,
+                            and technology and processes need to
+                            adapt. It’s important to keep in mind that
+                            security encompasses many aspects of
+                            hybrid operations. Operational security
+                            concerns are common to any expanding
+                            environment, . Hybrid approaches allow
+                            organizations to implement one of
+                            security’s most fundamental controls,
+                            segmentation, as well as isolation, which
+                            allows them to use different clouds for
+                            different use cases. 
+                        </p>
+                    </div>
+                    <div class="flex">
+                        <div class="text large">
+                            <p>
+                                One factor in the maturing of cloud
+                                operations is managing risk by being
+                                selective about where workloads and
+                                data are placed. Hybrid environments can
+                                give security teams options that allow
+                                them to balance placement, putting some
+                                workloads in public clouds while keeping
+                                others on-premises, or using different
+                                regions for data residency requirements.
+                                While that’s an advantage, it’s one that
+                                has risk elements of its own in terms of
+                                the additional complexity of operating in
+                                multiple, dissimilar realms. Each cloud
+                                environment can have its own operational
+                                model and management environment.
+                                Without a common framework to manage
+                                them, security teams need to develop
+                                fluency in each new cloud – a significant
+                                investment in time and resources. 
+                            </p>
+                        </div>
+                        <img class="security" src="./images/security.png" alt="">
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="highlight">
+                        <h3>Enterprises are<br>
+                            looking at all options<br>
+                            to improve their<br>
+                            security posture,<br>
+                            including using<br>
+                            cloud-native<br>
+                            technologies...<br>
+                        </h3>
+                    </div>
+                    <div class="text no-margin-top">
+                        <p>
+                            Security can be even more difficult to
+                            handle when you consider how often
+                            applications are moving from one
+                            environment to another – more than half 
+                            © 2022 Cisco and/or its affiliates. All rights reserved 7 2022 Global Hybrid Cloud Trends Report
+                            of total survey respondents say they
+                            are moving applications between onpremises and off-premises environments
+                            weekly. Enterprises are looking at
+                            all options to improve their security
+                            posture, including using cloud-native
+                            technologies (44% of respondents) and
+                            using infrastructure as code (58%). In
+                            addition to managing the security of the
+                            overall environment, securing APIs across
+                            multiple clouds is a significant challenge
+                            for 32% of respondents. 
+                        </p>
+                        <p>
+                            This is an area where automation and
+                            abstraction can deliver the best of
+                            hybrid cloud’s promise for security
+                            while overcoming complexity-related
+                            security challenges. If security teams
+                            can implement tools that let them use
+                            a common framework for security
+                            management across multiple clouds,
+                            they can mitigate the largest risks
+                            of misconfiguration and operational
+                            mistakes, while ensuring that guardrails
+                            are in place to get the right workloads
+                            deployed in the proper environments. The
+                            abstractions that capable management
+                            platforms offer can be force multipliers for
+                            security teams that are already overtaxed
+                            by hybrid complexity. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img class="hybrid-line" src="./images/challenge-line-one.png" alt="">
+                    <h4>Figure 3. The top operational challenges when utilizing multiple clouds.</h4>
+                    <canvas id="horizontalBar3">
+                    </canvas>
+                    <img class="hybrid-line" src="./images/challenge-line-two.png" alt="">
+                    <p><span class="strong">Q.</span>  What are the most significant challenges your organization faces or would face using multiple clouds?<br>
+                       <span class="strong">Base:</span> All respondents (N = 2,577)</p>
+                </div>
+                <div class="flex">
+                    <div class="highlight">
+                        <h3>The majority of<br>
+                            survey respondents<br>
+                            (94%) use a cloudbased IT operations<br>
+                            platform delivered as<br>
+                            a service.<br>
+                        </h3>
+                    </div>
+                    <div class="text no-margin-top">
+                        <h3 class="no-margin">Top challenge #2:
+                            Operational complexity</h3>
+                        <p>
+                            For one-third of surveyed organizations,
+                            the operational complexity driven by
+                            the use of multicloud is a key concern,
+                            even as there is a proliferation of tools
+                            on the market designed to simplify the
+                            management of cloud environments.
+                            Hybrid environments not only mean that
+                            organizations must manage disparate
+                            cloud environments, but also different
+                            hardware. Many survey respondents
+                            (79%) tell us that more than half of their
+                            workloads will run on different hardware
+                            across all environments, which reinforces
+                            the need for a comprehensive toolset for
+                            managing workloads regardless of where
+                            they reside. For instance, the majority of
+                            survey respondents use a cloud-based IT
+                            operations platform delivered as a service
+                            (94%), which can help an organization
+                            quantify operational complexity, provide full
+                            lifecycle management, and offer proactive
+                            support of on-premises infrastructure – all
+                            key capabilities identified by respondents
+                            as top criteria in selecting a cloud-based
+                            ITOps platform. 
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="container no-padding">
+                    <div class="flex">
+                        <div class="text">
+                            <p>
+                                Concerns about visibility into more
+                                complex infrastructure have placed a
+                                focus on management support that can
+                                span multicloud environments. To ensure
+                                they meet their business objectives, a
+                                SaaS-based operations platform is the
+                                leading choice (60%) for respondents.
+                            </p>
+                        </div>
+                        <img src="./images/complexity.png" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="hybrid-line" src="./images/challenge-line-three.png" alt="">
+                </div>
+                
+                <div class="container">
+                    <div class="flex">
+                        <img class="cost" src="./images/cost.png" alt="">
+                        <div class="text">
+                            <h3 class="no-margin">Top challenge #3:
+                                Managing costs
+                            </h3>
+                            <p>
+                                Managing cloud costs can be
+                                challenging; however, most
+                                organizations’ use of multicloud is not
+                                driven by the expectation that this
+                                approach will help reduce cloud services
+                                costs (66% of respondents). Rather,
+                                more than half of respondents (56%) use
+                                a cost/benefit approach to justify and
+                                load-balance cloud service purchasing. 
+                            </p>
+                            <p>
+                                Cost optimization is one measurement
+                                of multicloud success, but saving money
+                                is not a guarantee in the cloud, and it is
+                                the ability to connect cloud strategy to
+                                overall business objectives that drives
+                                real value. As understanding of cloud’s
+                                value matures, expectations are shifting
+                                from cost reduction to cost management
+                                to enable business agility and scale –
+                                one of the top two motivations for
+                                multicloud in the study.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="perspective grey-bg">
+                <div class="flex no-padding">
+                    <div class="text">
+                        <h2>Building cloud-ready: DevOps and CloudOps perspectives</h2>
+                        <p>
+                            Developers have become more influential
+                            in the building of an organization’s cloud
+                            strategy, and they frequently play a key role
+                            in selection of cloud platforms and services
+                            that support application development and
+                            infrastructure modernization.
+                        </p>
+                        <p>
+                            Survey respondents in cloud operations
+                            and DevOps roles indicate that a cloudfirst mandate for all new application
+                            development (34%) is the tipping point
+                            toward changing development processes
+                            and tools at their organization, while cost
+                            optimization (19%) and automation (18%)
+                            are contributing factors. This is another
+                            indication of the maturing expectations
+                            around cloud environments, as organizations
+                            expect operational capabilities to be part
+                            of their multicloud journey. 
+                        </p>
+                        <p>
+                            A cloud-first mandate may be applied to
+                            net-new applications as most businesses
+                            are dealing with legacy applications
+                            that require a different approach to
+                            transformation. CloudOps and DevOps
+                            respondents tell us that their approach to
+                            mission-critical and legacy applications
+                            moving forward is to modernize in
+                            place (38%) or refactor and shift (25%),
+                            leveraging cloud-native technologies
+                            to support this transition. Our survey
+                            respondents are bullish on transformation,
+                            with only 8% planning to retain missioncritical workloads where they are. 
+                        </p>
+                    </div>
+                    <img class="circle-three" src="./images/circle-three.png" alt="">
+                </div>
+                <div class="flex no-padding">
+                    <img class="circle-one" src="./images/circle-one.png" alt="">
+                    <div class="text right">
+                        <h3>The importance of network in cloud ready</h3>
+                        <p>
+                            Regardless of where an organization
+                            decides to run a particular application,
+                            networking is a critical capability that
+                            ensures applications function and perform
+                            properly, and developers consider their
+                            involvement in determining networking
+                            priorities as non-negotiable. The majority
+                            of developers either agree or strongly
+                            agree (92%) that having a seat at the
+                            table in determining their organizations’
+                            networking strategy and priorities is
+                            important. The importance of networking
+                            is reinforced by the frequency with which
+                            survey respondents move workloads
+                            between off-premises and on-premises
+                            environments – 53% move workloads/
+                            applications between these venues
+                            weekly, while 39% do so monthly.
+                        </p>
+                        <p>
+                            Meanwhile, networking professionals
+                            also view this relationship as critical:
+                            57% of respondents in networking roles
+                            strongly agree that it is important for
+                            their DevOps team to be involved in
+                            developing their organization’s network
+                            strategy. In fact, most developers indicate
+                            they already have a process in place to
+                            collaborate with networking teams, with
+                            71% of DevOps respondents having a
+                            regular cadence of meetings with this 
+                            team – either weekly (62%) or monthly
+                            (9%) – while 8% of respondents describe ad
+                            hoc meetings as the norm (see Figure 4). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="hybrid-line" src="./images/hybrid-top-line.png" alt="">
+                <h4>Figure 4. Collaboration between networking operations and DevOps teams is frequent.</h4>
+                <div class="flex">
+                    <div class="stats" id="animate-stats4">
+                        <div class="stats-circle large" id="circle4"></div>
+                        <p>Rarely</p>
+                    </div>
+                    <div class="stats" id="animate-stats5">
+                        <div class="stats-circle large" id="circle5"></div>
+                        <p>Weekly</p>
+                    </div>
+                    <div class="stats" id="animate-stats6">
+                        <div class="stats-circle large" id="circle6"></div>
+                        <p>Monthly</p>
+                    </div>
+                    <div class="stats" id="animate-stats7">
+                        <div class="stats-circle large" id="circle7"></div>
+                        <p>Ad hoc<br>
+                            or on-demand</p>
+                    </div>
+                </div>
+                <img class="hybrid-line" src="./images/hybrid-bottom-line.png" alt="">
+                <p><span class="strong">Q.</span> How often do you collaborate with your network operations team<br>
+                   <span class="strong">Base:</span>  Respondents in DevOps roles (N = 647)</p>
+            </div>
+            <div class="flex flex-highlight">
+                <div class="highlight grey">
+                    <img class="green-rectangle" src="./images/green-rectangle.png" alt="">
+                    <img class="blue-square" src="./images/blue-square.png" alt="">
+                    <h3><span class="strong">Bottom line:</span> The use of<br>
+                        multiple clouds increases<br>
+                        operational complexity,<br>
+                        reinforcing the need for<br>
+                        centralized tools that provide<br>
+                        visibility, orchestration, and<br>
+                        automation across platforms<br>
+                        and environments.
+                    </h3>
+                    <img class="yellow-circle" src="./images/yellow-circle.png" alt="">
+                </div>
+                <div class="text text-highlight">
+                    <p>
+                        Although most survey respondents
+                        feel their current level of collaboration
+                        between DevOps and networking teams
+                        is sufficient (83%), there are roadblocks
+                        that prevent even more cooperation.
+                        Competing priorities between teams
+                        (45%), resistance to change (43%) and
+                        different objectives and incentives
+                        (41%) are all factors that prevent further
+                        collaboration between DevOps and
+                        networking teams. Speaking the same
+                        language around how networking
+                        can drive faster and more effective
+                        development and identifying common
+                        business goals could go a long way
+                        in bringing these teams together. 
+                        It is evident that while collaboration is
+                        happening at some level, there is still
+                        room to improve outcomes that address
+                        developers’ concerns around networking.
+                    </p>
+                    <p>
+                        In our survey, 48% of developers note
+                        that network reliability is one of the most
+                        pressing challenges they encounter.
+                        DevOps teams want more visibility into
+                        networking issues, and 41% of developers
+                        tell us that accessing root-cause analysis
+                        is a key challenge they face, along with
+                        lack of common tools, platforms and
+                        interfaces. More productive collaboration
+                        would help developers better understand
+                        networking priorities while ensuring that
+                        application requirements and business
+                        needs are considered as part of the
+                        overall networking strategy.
+                    </p>
+                    <img class="short-line" src="./images/short-line.png" alt="">
+                </div>
+            </div>
+            
+
+            <div class="outro container">
+                
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js" integrity="sha512-EZhmSl/hiKyEHklogkakFnSYa5mWsLmTC4ZfvVzhqYNLPbXKAXsjUYRf2O9OlzQN33H0xBVfGSEIUeqt9astHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.2/chart.js" integrity="sha512-/MqITtqQfmjLnDtBC8yxrsERbn3dvqyxtc1B/3x57xp+J3srVBcgyr9VXgDj8BYScxSJ9MauIMY7F9Fr2TJHkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="index.js"></script>
+        <script type="text/javascript" src="https://www.cisco.com/c/dam/cdc/t/ctm.js"></script> 
+    </body>
+</html>
