@@ -152,23 +152,6 @@ const data = {
     ]
   }]
 };
-const data2 = {
-  labels: ['Managing security', 'More agile and scalable development environment', 'Best of breed cloud services and applications', 'Business agility and innovation', 'Reducing cloud services costs', 'Business resilience and disaster recovery' ],
-  datasets: [{
-    axis: 'y',
-    // label: false,
-    data: [43, 42, 41, 40, 34, 34],
-    fill: false,
-    backgroundColor: [
-      '#68B8E6',
-      '#69BAE8',
-      '#B1E3F5',
-      '#8DBE55',
-      '#ADD084',
-      '#CFE5B8'
-    ]
-  }]
-};
 const config = {
   type: 'bar',
   data,
@@ -192,9 +175,30 @@ const config = {
     }
   }
 };
+const horizontalBar1 = new Chart(
+  document.getElementById('horizontalBar1'),
+  config
+);
+const data2 = {
+  labels: ['Managing security', 'More agile and scalable development environment', 'Best of breed cloud services and applications', 'Business agility and innovation', 'Reducing cloud services costs', 'Business resilience and disaster recovery' ],
+  datasets: [{
+    axis: 'y',
+    // label: false,
+    data: [43, 42, 41, 40, 34, 34],
+    fill: false,
+    backgroundColor: [
+      '#68B8E6',
+      '#69BAE8',
+      '#B1E3F5',
+      '#8DBE55',
+      '#ADD084',
+      '#CFE5B8'
+    ]
+  }]
+};
 const config2 = {
   type: 'bar',
-  data2,
+  data: data2,
   options: {
     indexAxis: 'y',
     scales: {
@@ -215,14 +219,9 @@ const config2 = {
     }
   }
 };
-
-const horizontalBar1 = new Chart(
-  document.getElementById('horizontalBar1'),
-  config
-);
 const horizontalBar2 = new Chart(
   document.getElementById('horizontalBar2'),
-  config
+  config2
 );
 
 const data3 = {
@@ -245,7 +244,7 @@ const data3 = {
 
 const config3 = {
   type: 'bar',
-  data2,
+  data: data3,
   options: {
     indexAxis: 'y',
     scales: {
@@ -268,8 +267,100 @@ const config3 = {
 };
 const horizontalBar3 = new Chart(
   document.getElementById('horizontalBar3'),
-  config
+  config3
 );
 
-console.log(horizontalBar1)
+const data5 = {
+  labels: ['Created a cloud center of excellence', 'Adopted a cost benefit approach', 'Adopted an AIOps operating model', 'Centralized CloudOps and NetOps functions', 'Developed multicloud networking strategy' ],
+  datasets: [{
+    axis: 'y',
+    // label: false,
+    data: [57, 53, 53, 50, 50],
+    fill: false,
+    backgroundColor: [
+      '#68B8E6',
+      '#69BAE8',
+      '#B1E3F5',
+      '#8DBE55',
+      '#ADD084'
+    ]
+  }]
+};
 
+const config5 = {
+  type: 'bar',
+  data: data5,
+  options: {
+    indexAxis: 'y',
+    scales: {
+      x: {
+        grid: {
+          dissplay: false
+        }
+      },
+      y: {
+        beginAtZero: true,
+        grid: {
+            display: false,
+        }
+      }
+    },
+    tooltips: {
+      enable: false,
+    }
+  }
+};
+const horizontalBar5 = new Chart(
+  document.getElementById('horizontalBar5'),
+  config5
+);
+
+const data6 = {
+  labels: ['Performance', 'Security', 'Speed', 'Workload mobility', 'Cost', 'Agility', 'Scalability', 'Resiliency' ],
+  datasets: [{
+    axis: 'y',
+    // label: false,
+    data: [45, 44, 39, 36, 33, 30, 29, 29],
+    fill: false,
+    backgroundColor: [
+      '#68B8E6',
+      '#69BAE8',
+      '#B1E3F5',
+      '#8DBE55',
+      '#89C966',
+      '#9ED281',
+      '#B2DC9C',
+      '#C7E5B7',
+    ]
+  }]
+};
+
+const config6 = {
+  type: 'bar',
+  data: data6,
+  options: {
+    indexAxis: 'y',
+    scales: {
+      x: {
+        grid: {
+          dissplay: false
+        }
+      },
+      y: {
+        beginAtZero: true,
+        grid: {
+            display: false,
+        }
+      }
+    },
+    tooltips: {
+      enable: false,
+    }
+  }
+};
+const horizontalBar6 = new Chart(
+  document.getElementById('horizontalBar6'),
+  config6
+);
+
+console.log('chart 6', horizontalBar6);

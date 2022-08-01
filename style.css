@@ -30,12 +30,12 @@ h4 {
     margin: 1.33em 0; 
 }
 p {
-    font-size: 2rem;
-    line-height: 1.27;
+    font-size: 1.7rem;
+    line-height: 1.45;
 }
 li {
     font-size: 1.6rem;
-    line-height: 1.27;
+    line-height: 1.3;
 }
 h1, h2, h3, h4, p, li {
     font-weight: 300;
@@ -113,6 +113,22 @@ a[href].btn {
     max-width: 1200px;
     margin: auto;
     padding: 70px 0px 0px;
+}
+.large-highlight {
+    height: fit-content;
+    margin: 100px 0;
+    padding: 40px 60px;
+    border: 2.5px solid #000;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: #F6F6F6;
+}
+.highlight-rectangle {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -120px;
+    margin-top: -88px;
 }
 /* hero */
 .hero {
@@ -378,14 +394,15 @@ a[href].btn {
     font-size: 1.2rem;
 }
 .highlight {
+    width: 335px;
     background-color: #0d274d;
     color: #fff;
-    border-radius: 60px;
-    padding: 100px 50px 100px 100px;
-    margin-left: -80px;
+    border-radius: 40px;
+    padding: 50px 20px 50px 100px;
+    margin-left: -130px;
 }
 .highlight > h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.7;
 }
 .highlight.grey {
@@ -454,6 +471,43 @@ a[href].btn {
 .flex-highlight {
     justify-content: center;
     align-items: center;
+}
+.operations.flex {
+    justify-content: start;
+    align-items: flex-start;
+}
+.operations.flex > .text {
+    width: 80%;
+    margin: 80px 160px 80px 80px;
+}
+.operation-img {
+    object-fit: contain;
+    margin-top: 200px;
+    transform: scaleX(-1);
+}
+.operations > .flex {
+    justify-content: center;
+    align-items: center;
+}
+.operations > .flex > .highlight-text {
+    width: 50%;
+    margin: 80px 160px;
+}
+.cloud-native.flex {
+    justify-content: start;
+    align-items: flex-start;
+}
+.cloud-native.flex > .text {
+    width: 80%;
+    margin: 80px 160px 80px 80px;
+}
+.cloud-native > .flex {
+    justify-content: center;
+    align-items: center;
+}
+.cloud-native > .flex > .highlight-text {
+    width: 50%;
+    margin: 80px 160px;
 }
 /* outro */
 .outro {
